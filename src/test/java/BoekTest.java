@@ -7,6 +7,7 @@ public class BoekTest {
     private Boek boek;
 
     @Before
+    // throw exception weggelaten
     public void setUp() {
         boek = new Boek("Dit is een mooie titel");
     }
