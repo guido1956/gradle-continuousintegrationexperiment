@@ -13,8 +13,9 @@ public class BoekTest {
 
     @Test
     public void testTitel() {
+        // test1
         String expectedResult = "Dit is een mooie titel";
         assertEquals(expectedResult, boek.getTitle());
-    }
 
+    }
 }
