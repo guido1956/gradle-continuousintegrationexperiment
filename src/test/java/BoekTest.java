@@ -1,0 +1,20 @@
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+public class BoekTest {
+    private Boek boek;
+
+    @Before
+    public void setUp() {
+        boek = new Boek("Dit is een mooie titel");
+    }
+
+    @Test
+    public void testTitel() {
+        String expectedResult = "Dit is een mooie titel";
+        assertEquals(expectedResult, boek.getTitle());
+    }
+
+}
