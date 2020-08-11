@@ -10,6 +10,6 @@ public class Boek {
 
     public void setTitle(String title) {
         this.title = title;
-        System.out.println("j");
+        System.out.println("ja");
     }
 }
