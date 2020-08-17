@@ -17,7 +17,7 @@ public class BoekTest {
         // test1
         String expectedResult = "Dit is een mooie titel";
         assertEquals(expectedResult, boek.getTitle());
-        System.out.println("hoi aga");
+        System.out.println("hoi againdd");
 
     }
 }
